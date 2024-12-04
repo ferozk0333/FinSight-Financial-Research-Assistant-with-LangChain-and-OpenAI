@@ -1,0 +1,19 @@
+This end to end llm project covers real life industry use case of 
+equity research analysis.
+
+We will build a news research tool where we will give bunch of news articles, urls
+and then when we ask a question, it will retrieve answers based on those articles.
+
+Tech: Langchain, Python, OpenAI and Streamlit
+
+News Articles:
+
+Tesla Quarterly report: https://www.businessinsider.com/tesla-stock-tsla-earnings-call-report-live-updates-2024-10#tesla-projects-slight-growth-in-vehicle-deliveries-this-year
+
+Tesla Quarterly report (NYT): https://www.nytimes.com/2024/10/23/business/tesla-elon-musk-earnings.html
+
+Tesla Wiki: https://en.wikipedia.org/wiki/Tesla,_Inc.
+
+BYD Reuters: https://www.reuters.com/business/autos-transportation/byd-says-it-will-launch-new-generation-blade-batteries-next-year-2024-11-25/
+
+EV Market Reuters: https://www.reuters.com/business/autos-transportation/global-ev-sales-up-35-october-europe-ekes-out-gain-2024-11-13/
