@@ -29,6 +29,24 @@ https://github.com/user-attachments/assets/2e0d24dc-e2c5-4b6f-9aa0-3eee5b1c2d94
 
 ---
 
+
+
+## **Technical Architecture**  
+### **Data Flow**
+- **Document Loader**: Extracts article content and metadata from URLs.
+- **Text Splitter**: Splits content into smaller, overlapping chunks using LangChain's RecursiveCharacterTextSplitter.
+- **Vector Embedding**: Converts text chunks into embeddings via HuggingFace SentenceTransformers.
+- **Vector Database**: Stores embeddings in FAISS for fast similarity search.
+- **Query Processing**: Fetches relevant chunks and sends them to OpenAI for answering the user query.
+
+---
+
+## **UI & Flow Diagrams**
+![ERA - UI_1](https://github.com/user-attachments/assets/6cd12ec4-1889-4747-9831-de2db00715b8)
+![ERA_PD - 1](https://github.com/user-attachments/assets/19ee8b36-2ec5-4af2-a632-3f418bec0292)
+![ERA_PD - 2](https://github.com/user-attachments/assets/a5d23cd8-a7cb-45fd-be6d-1aaddffbe8cc)
+![ERA_PD - 3](https://github.com/user-attachments/assets/e4a244cb-e4a0-4f72-a504-68c7b17173bc)
+
 ## **Getting Started**  
 
 ### **Prerequisites**  
@@ -58,23 +76,6 @@ Ensure you have the following installed:
    ```
 
 ---
-
-## **Technical Architecture**  
-### **Data Flow**
-- **Document Loader**: Extracts article content and metadata from URLs.
-- **Text Splitter**: Splits content into smaller, overlapping chunks using LangChain's RecursiveCharacterTextSplitter.
-- **Vector Embedding**: Converts text chunks into embeddings via HuggingFace SentenceTransformers.
-- **Vector Database**: Stores embeddings in FAISS for fast similarity search.
-- **Query Processing**: Fetches relevant chunks and sends them to OpenAI for answering the user query.
-
----
-
-## **UI & Flow Diagrams**
-![ERA - UI_1](https://github.com/user-attachments/assets/6cd12ec4-1889-4747-9831-de2db00715b8)
-![ERA_PD - 1](https://github.com/user-attachments/assets/19ee8b36-2ec5-4af2-a632-3f418bec0292)
-![ERA_PD - 2](https://github.com/user-attachments/assets/a5d23cd8-a7cb-45fd-be6d-1aaddffbe8cc)
-![ERA_PD - 3](https://github.com/user-attachments/assets/e4a244cb-e4a0-4f72-a504-68c7b17173bc)
-
 
 
 
