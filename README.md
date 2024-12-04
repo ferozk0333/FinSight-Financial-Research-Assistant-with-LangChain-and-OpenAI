@@ -20,7 +20,6 @@ FinSight is an AI-powered financial research assistant designed to streamline th
 - **OpenAI GPT**: For generating insightful answers.  
 - **FAISS (Facebook AI Similarity Search)**: Vector database for fast, semantic search.  
 - **Streamlit**: Interactive front-end interface.  
-- **HuggingFace SentenceTransformers**: For creating vector embeddings.
 
 ---
 
@@ -35,5 +34,19 @@ Ensure you have the following installed:
 ### **Installation**  
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/FinSight.git
-   cd FinSight
+   git clone https://github.com/ferozk0333/FinSight-Financial-Research-Assistant-with-LangChain-and-OpenAI.git
+   cd FinSight-Financial-Research-Assistant-with-LangChain-and-OpenAI
+   ```
+2. Install Dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Set up OpenAI API Key:
+   Ideally, create a .env file in the project directory and add:
+   ```bash
+   OPENAI_API_KEY=your_openai_api_key
+   ```
+4. Run app:
+   ```bash
+   streamlit run main.py
+   ```
