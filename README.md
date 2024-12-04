@@ -5,7 +5,7 @@ FinSight is an AI-powered financial research assistant designed to streamline th
 
 ---
 
-## **Demo Video**
+## **Project Demo Video**
 https://github.com/user-attachments/assets/2e0d24dc-e2c5-4b6f-9aa0-3eee5b1c2d94
 
 
