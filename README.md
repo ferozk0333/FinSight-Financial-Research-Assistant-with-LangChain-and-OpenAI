@@ -5,6 +5,12 @@ FinSight is an AI-powered financial research assistant designed to streamline th
 
 ---
 
+## **Demo Video**
+https://github.com/user-attachments/assets/2e0d24dc-e2c5-4b6f-9aa0-3eee5b1c2d94
+
+
+---
+
 ## **Features**  
 - Extracts and processes content from up to five URLs.  
 - Splits and stores text in an optimized vector database using FAISS.  
@@ -69,10 +75,6 @@ Ensure you have the following installed:
 ![ERA_PD - 2](https://github.com/user-attachments/assets/a5d23cd8-a7cb-45fd-be6d-1aaddffbe8cc)
 ![ERA_PD - 3](https://github.com/user-attachments/assets/e4a244cb-e4a0-4f72-a504-68c7b17173bc)
 
----
-
-## **Demo Video**
-https://github.com/user-attachments/assets/2e0d24dc-e2c5-4b6f-9aa0-3eee5b1c2d94
 
 
 
