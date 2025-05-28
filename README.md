@@ -4,6 +4,12 @@
 FinSight is an AI-powered financial research assistant designed to streamline the workflow of research analysts. By leveraging LangChain, OpenAI's GPT models, and FAISS vector database, this tool provides quick and precise answers to complex financial queries based on data from news articles and financial reports.
 
 ---
+## **UI & Flow Diagrams**
+![ERA_PD - 1](https://github.com/user-attachments/assets/19ee8b36-2ec5-4af2-a632-3f418bec0292)
+![ERA_PD - 2](https://github.com/user-attachments/assets/a5d23cd8-a7cb-45fd-be6d-1aaddffbe8cc)
+![ERA_PD - 3](https://github.com/user-attachments/assets/e4a244cb-e4a0-4f72-a504-68c7b17173bc)
+
+---
 
 ## **Project Demo Video**
 https://github.com/user-attachments/assets/2e0d24dc-e2c5-4b6f-9aa0-3eee5b1c2d94
@@ -41,11 +47,6 @@ https://github.com/user-attachments/assets/2e0d24dc-e2c5-4b6f-9aa0-3eee5b1c2d94
 
 ---
 
-## **UI & Flow Diagrams**
-![ERA - UI_1](https://github.com/user-attachments/assets/6cd12ec4-1889-4747-9831-de2db00715b8)
-![ERA_PD - 1](https://github.com/user-attachments/assets/19ee8b36-2ec5-4af2-a632-3f418bec0292)
-![ERA_PD - 2](https://github.com/user-attachments/assets/a5d23cd8-a7cb-45fd-be6d-1aaddffbe8cc)
-![ERA_PD - 3](https://github.com/user-attachments/assets/e4a244cb-e4a0-4f72-a504-68c7b17173bc)
 
 ## **Getting Started**  
 
